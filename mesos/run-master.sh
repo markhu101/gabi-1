@@ -1,1 +1,1 @@
-/usr/local/sbin/mesos-master --registry=in_memory --ip=127.0.0.1
+nohup /usr/local/sbin/mesos-master --registry=in_memory --ip=127.0.0.1 2>&1 &
